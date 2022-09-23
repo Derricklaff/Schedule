@@ -32,8 +32,20 @@ for (i = 0; i < 9; i++) {
 }
 
 
+$('.saveBtn').on('click', function (event) {
+    event.preventDefault();
+    let $userInfo = $(this).siblings('input').val();
+    let $localCurrent = localStorage.getItem('entry') || "";
+    if ($userInfo) {
+        localStorage.setItem('entry', $userInfo)
+    }
 
 
+
+})
+
+
+$9amInput.val(localStorage.getItem('entry'));
 
 
 
