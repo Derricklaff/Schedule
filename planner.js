@@ -1,10 +1,10 @@
 
 //Header date
-let $currentDay = moment().format('LL');
+const $currentDay = moment().format('LL');
 $('#currentDay').text($currentDay);
 
 //Local time
-let $localTime = moment().format('HH');
+const $localTime = moment().format('HH');
 console.log($localTime)
 
 // Save when refreshed
@@ -16,7 +16,7 @@ $('.saveBtn').on('click', function (event) {
 });
 
 $('input').each(function () {
-    var selectedInput = parseInt($(this).attr("id"));
+    let selectedInput = parseInt($(this).attr("id"));
 
     if (selectedInput > $localTime) {
         $(this).addClass("future")
