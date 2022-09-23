@@ -8,5 +8,5 @@ I added a key to indicate that the RED meant current task, GREEN meant upcoming 
 
 ![SCREENSHOTS](/Assets/Daily-Scheduler.JPG)
 
-![Live-Site](https://derricklaff.github.io/Schedule/)
-![Repo-link](https://github.com/Derricklaff/Schedule)
+[Live Site](https://derricklaff.github.io/Schedule/)
+[Repo link](https://github.com/Derricklaff/Schedule)
