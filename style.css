@@ -76,3 +76,25 @@ h2 {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
+.key {
+  font-size: 22px;
+}
+
+.RED {
+  color: #ff6961;
+}
+
+.GREEN {
+  color: #77dd77;
+}
+
+.GREY {
+  color: #d3d3d3;
+  background-color: #000000;
+}
+
+.key-div {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
